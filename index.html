@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+        <div class="bg">
+        <div class="div-flex">
+            <div class="div-main">
+                <div class="div-search">
+                    <input type="text" placeholder="Enter a city name">
+                    <button><img src="images/search.png"></button>
+                </div>
+                <div class="div-error"><p>Invalid City Name</p></div>
+                <div class="div-weather">
+                    <img src="images/rain.png" class="weather-img">
+                    <h1 class="temp"></h1>
+                    <h2 class="city"></h2>
+                    <div class="div-det">
+                        <div class="col">
+                            <img src="images/humidity.png">
+                            <div>
+                                <p></p>
+                                <p class="humid"></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="images/wind.png">
+                            <div>
+                                <p></p>
+                                <p class="wind"></p>
+                            </div>
+                        </div>
+                    
+                        <div class="col">
+                            <p class="p-date"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-days">
+                <h2>5 Days Weather Forecast</h2>
+                <div class="err-days">Try A Valid City Name</div>
+                <div class="day-day" id="day-day0">
+                    <p class="date-day" id="date0"></p>
+                    <p class="day-tempt" id="day-tempt0"></p>
+                    <div class="div-day-img">
+                        <img src="images/humidity.png" id="img0">
+                        <p class="day-p" id="day-p0"></p>
+                    </div>
+                </div>
+                <div class="day-day" id="day-day1">
+                    <p class="date-day" id="date1"></p>
+                    <p class="day-tempt" id="day-tempt1"></p>
+                    <div class="div-day-img" >
+                        <img src="images/humidity.png" id="img1">
+                        <p class="day-p" id="day-p1"></p>
+                    </div>
+                </div>
+                <div class="day-day" id="day-day2">
+                    <p class="date-day" id="date2"></p>
+                    <p class="day-tempt" id="day-tempt2"></p>
+                    <div class="div-day-img">
+                        <img src="images/humidity.png" id="img2">
+                        <p class="day-p" id="day-p2"></p>
+                    </div>
+                </div>
+                <div class="day-day" id="day-day3">
+                    <p class="date-day" id="date3"></p>
+                    <p class="day-tempt" id="day-tempt3"></p>
+                    <div class="div-day-img">
+                        <img src="images/humidity.png" id="img3">
+                        <p class="day-p" id="day-p3"></p>
+                    </div>
+                </div>
+                <div class="day-day" id="day-day4">
+                    <p class="date-day" id="date4"></p>
+                    <p class="day-tempt" id="day-tempt4"></p>
+                    <div class="div-day-img">
+                        <img src="images/humidity.png" id="img4">
+                        <p class="day-p" id="day-p4"></p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>   
+        </div>
+           <script src="scripts\main.js"></script>
+            
+    </body>
+</html>
